@@ -1,0 +1,10 @@
+version: "3.6"
+services:
+  web:
+    expose:
+      - 8000
+    environment:
+      - HTTP_EXPOSE=80:8000
+      - HTTPS_EXPOSE=443:8000
+    healthcheck:
+      test: "true"
