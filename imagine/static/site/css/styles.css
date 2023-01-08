@@ -1,0 +1,18 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.header {height: 900px;}
+img.logo {max-width: 450px;}
+.h2-subtitle {font-size: 1.2rem;}
+.block-about {border-bottom: 3px solid #F7F35B;padding:0;}
+a.btn-about {background-color: #F7F35B;}
+a.btn-about:hover {background-color: #68f52e;}
+a.btn-see-more {background-color: #68f52e;}
+a.btn-see-more:hover {background-color: #F7F35B;}
+.block-more {border-bottom: 3px solid #68f52e;padding:0;}
