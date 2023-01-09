@@ -17,5 +17,7 @@ a.btn-see-more {background-color: #68f52e;}
 a.btn-see-more:hover {background-color: #F7F35B;}
 .block-more {border-bottom: 3px solid #68f52e;padding:0;background: #48d1cd;}
 .ocean-bg {background-image: url(../../images/oceanbg.jpg);padding: 5rem;background-size:cover;background-position: center;background-repeat: no-repeat;}
-.ocean-bg div img {height: 250px;margin-bottom: 5rem;}
+.ocean-bg div img {height: 250px;object-fit: cover;min-width:221px;margin-bottom: 5rem;}
 .waves-bg {background-image: url(../../images/blue-waves/waves-bg.jpg);padding: 5rem;background-size:initial;background-position: top;background-repeat: no-repeat;}
+.fairies-bg {background-image: url(../../images/fairies-garden/flying-fairies.jpg);padding: 5rem;background-size:cover;background-position-y: -995px;background-repeat: no-repeat;}
+.fairies-bg div img {height: 250px;margin-bottom: 5rem;}
