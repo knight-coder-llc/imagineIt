@@ -1,0 +1,39 @@
+/* body {
+    background-color: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.header {height: 900px;}
+img.logo {max-width: 450px;}
+.h2-subtitle {font-size: 1.2rem;}
+.block-about {border-bottom: 3px solid #F7F35B;padding:0;background: #e3f6fb;}
+a.btn-about {background-color: #F7F35B;}
+a.btn-about:hover {background-color: #68f52e;}
+a.btn-see-more {background-color: #68f52e;}
+a.btn-see-more:hover {background-color: #F7F35B;}
+.block-more {border-bottom: 3px solid #68f52e;padding:0;background: #48d1cd;}
+.ocean-bg {background-image: url(../../images/oceanbg.jpg);padding: 5rem;background-size:cover;background-position: center;background-repeat: no-repeat;}
+.ocean-bg div img {height: 250px;object-fit: cover;min-width:221px;margin-bottom: 5rem;}
+.waves-bg {background-image: url(../../images/blue-waves/waves-bg.jpg);padding: 5rem;background-size:initial;background-position: top;background-repeat: no-repeat;}
+.fairies-bg {background-image: url(../../images/fairies-garden/flying-fairies.jpg);padding: 5rem;background-size:cover;background-position-y: -995px;background-repeat: no-repeat;}
+.fairies-bg div img {height: 250px;margin-bottom: 5rem;} */
+.header-block-cover, .header-block-cover-image {
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 430px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.ocean-bg {background-image: url(../../images/oceanbg.jpg);background-size:cover;background-position: center;background-repeat: no-repeat;}
+.unicorn-bg {background-image: url(../../images/unicorns/unicorn-empty-banner/unicorn-banner.jpg);background-size:cover;background-position: center;background-repeat: no-repeat;height: 800px;}
+.unicorn-bg div{position:relative;}
+#carouselExample {max-width:500px;top:35%;right: 75px}
